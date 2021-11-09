@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["es2017", "DOM"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@src": ["src"],
+
+      "@assets/*": ["src/assets/*"],
+      "@assets": ["src/assets"],
+
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
+
+      "@config/*": ["src/config/*"],
+      "@config": ["src/config"],
+
+      "@hooks/*": ["src/hooks/*"],
+      "@hooks": ["src/hooks"],
+
+      "@navigation/*": ["src/navigation/*"],
+      "@navigation": ["src/navigation"],
+
+      "@redux/*": ["src/store/*"],
+      "@redux": ["src/store"],
+
+      "@services/*": ["src/services/*"],
+      "@services": ["src/services"],
+
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/utils"],
+
+      "@screens/*": ["src/screens/*"],
+      "@screens": ["src/screens"]
+    }
+  }
+}
